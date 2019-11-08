@@ -1,0 +1,145 @@
+.content {
+    width: 100vw;
+    min-height: 100rem;
+    background-color: white;
+    position: absolute;
+    top: 54rem;
+    left: 0;
+
+    @media(max-width: 1200px) {
+        & {
+            top: 50rem;
+        }
+    }
+    
+    @media(max-width: 991px) {
+        & {
+            margin-top: 48rem;
+        }
+    }
+    
+    @media(max-width: 870px) {
+        & {
+            margin-top: 43rem;
+        }
+    }
+    
+    @media(max-width: 775px) {
+        & {
+            margin-top: 38rem;
+        }
+    }
+    
+    @media(max-width: 675px) {
+        & {
+            margin-top: 31rem;
+        }
+    }
+    
+    @media(max-width: 575px) {
+        & {
+            margin-top: 25rem;
+        }
+    }
+    
+    @media(max-width: 500px) {
+        & {
+            margin-top: 22rem;
+        }
+    }
+
+    .article-wrapper {
+        width: 90%;
+        max-width: 67.2rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-top: 3rem;
+
+        &__title {
+            margin-top: 0px;
+            margin-bottom: 16px;
+            color: #353e44;
+            font-size: 32px;
+            line-height: 40px;
+            font-weight: 700;
+            letter-spacing: -0.04em;
+        }
+
+        &__body {
+            margin-bottom: 1.6rem;
+            margin-top: 0;
+            font-size: 1.6rem;
+            color: rgb(79, 92, 101);
+            line-height: 2.4rem;
+        }
+
+        &__subtitle {
+            margin-top: 0;
+            margin-bottom: 1.2rem;
+            color: #353e44;
+            font-size: 2rem;
+            line-height: 2.4rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+        }
+
+        &__quote {
+            margin-top: 3.6rem;
+            margin-bottom: 3.6rem;
+            padding-left: 3.6rem;
+            border-left: 2px solid #e9eef1;
+            color: #0087ee;
+            font-size: 2rem;
+            line-height: 3rem;
+            margin-left: 0;
+            width: 100%;
+        }
+
+        @media(max-width: 767px) {
+            &__quote {
+                margin-top: 2.4rem;
+                margin-bottom: 2.4rem;
+                padding-left: 2.4rem;
+                padding-right: 0;
+            }
+        }
+
+        &__photo {
+            width: 100%;
+            margin-top: 2rem;
+            border-radius: 1rem;
+        }
+
+        @media(max-width: 767px) {
+            &__photo {
+                border-radius: 0.5rem;
+            }
+        }
+
+        &__caption {
+            color: rgb(79, 92, 101);
+            font-size: 1.4rem;
+            text-align: center;
+            line-height: 2.4rem;
+            margin-top: 0.8rem;
+            margin-bottom: 5rem;
+        }
+
+    }
+
+    .list {
+        margin-top: 2.4rem;
+        margin-bottom: 2.4rem;
+        padding-left: 2.4rem;
+
+        &__item {
+            padding-top: 0.6rem;
+            padding-bottom: 0.6rem;
+            color: rgb(79, 92, 101);
+            font-size: 1.6rem;
+            line-height: 2.4rem;
+        }
+    }
+
+}
