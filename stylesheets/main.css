@@ -481,11 +481,6 @@ a {
   text-decoration: none;
 }
 
-a:hover, a:active, a:focus {
-  color: #222222;
-  text-decoration: underline;
-}
-
 /**
  * Basic typography style for copy text
  */
@@ -571,6 +566,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   position: absolute;
+  padding-bottom: 3rem;
   top: 0;
   left: 0;
 }
@@ -589,7 +585,7 @@ body {
           order: -1;
   text-align: center;
   padding: 0 8rem;
-  margin-top: 20.5rem;
+  margin-top: 7.5rem;
 }
 
 .header .content-info__title {
@@ -609,6 +605,17 @@ body {
 @media (max-width: 767px) {
   .header .content-info__title {
     margin-bottom: 1.6rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .header .content-info .content-info {
+    padding: 0;
+  }
+  .header .content-info .content-info__title {
+    font-size: 5.4rem;
+    line-height: 5.6rem;
+    margin-top: 2rem;
   }
 }
 
@@ -649,6 +656,75 @@ body {
   font-weight: 500;
   position: relative;
   top: 30%;
+}
+
+.header .author__name:hover {
+  text-decoration: none;
+}
+
+@media (min-width: 991px) {
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-line-pack: distribute;
+        align-content: space-around;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 5rem;
+  }
+  .header .content-info {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    text-align: left;
+    padding: 0 6rem;
+    margin-top: 5rem;
+  }
+  .header .content-info__title {
+    max-width: 36.4rem;
+    margin-bottom: 3rem;
+  }
+  .header .content-image {
+    max-width: 46.1rem;
+    max-height: 31.6rem;
+    border-radius: 1rem;
+  }
+  .header .author {
+    -ms-flex-line-pack: start;
+        align-content: start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    margin: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header .content-image {
+    max-width: 54rem;
+    max-height: 37.08rem;
+  }
+}
+
+@media (min-width: 1350px) {
+  .header .content-image {
+    max-width: 60rem;
+    max-height: 41.2rem;
+  }
+  .header .content-info {
+    padding: 0 10rem;
+  }
+  .header .content-info__title {
+    max-width: 45rem;
+  }
 }
 
 .content-info__tag {

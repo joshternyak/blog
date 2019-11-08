@@ -11,6 +11,7 @@
     align-content: space-around;
     justify-content: center;
     position: absolute;
+    padding-bottom: 3rem;
     top: 0;
     left: 0;
 
@@ -26,7 +27,7 @@
         order: -1;
         text-align: center;
         padding: 0 8rem;
-        margin-top: 20.5rem;
+        margin-top: 7.5rem;
 
         &__title {
             color: #353e44;
@@ -45,6 +46,18 @@
         @media(max-width: 767px) {
             &__title {
                 margin-bottom: 1.6rem;
+            }
+        }
+
+        @media(min-width: 768px) {
+            .content-info {
+                padding: 0;
+
+                &__title {
+                    font-size: 5.4rem;
+                    line-height: 5.6rem;
+                    margin-top: 2rem;
+                }
             }
         }
     }
@@ -78,6 +91,71 @@
             font-weight: 500;
             position: relative;
             top: 30%;
+        }
+
+        &__name:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+@media(min-width: 991px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: space-around;
+        justify-content: center;
+        padding-top: 5rem;
+
+        .content-info {
+            order: 1;
+            text-align: left;
+            padding: 0 6rem;
+            margin-top: 5rem;
+
+            &__title {
+                max-width: 36.4rem;
+                margin-bottom: 3rem;
+            }
+        }
+
+        .content-image {
+            max-width: 46.1rem;
+            max-height: 31.6rem;
+            border-radius: 1rem;
+        }
+
+        .author {
+            align-content: start;
+            justify-content: start;
+            margin: 0;
+        }
+    }
+}
+
+@media(min-width: 1200px) {
+    .header {
+        .content-image {
+            max-width: 54rem;
+            max-height: 37.08rem;
+        }
+    }
+}
+
+@media(min-width: 1350px) {
+    .header {
+        .content-image {
+            max-width: 60rem;
+            max-height: 41.2rem;
+        }
+
+        .content-info {
+            padding: 0 10rem;
+        }
+
+        .content-info__title {
+            max-width: 45rem;
         }
     }
 }
