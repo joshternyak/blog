@@ -1,3 +1,20 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
+
+&__tag {
+    height: 2.4rem;
+    padding: 0.5rem 0.6rem;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 0.3rem;
+    line-height: 2.4rem;
+    background-color: #28afb0;
+}
+
+&__tag:hover {
+    color: white;
+    text-decoration: none;
+}

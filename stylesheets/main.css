@@ -565,6 +565,107 @@ body {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.header .content-image {
+  max-width: 94.3rem;
+  max-height: 64.78rem;
+  border-radius: 1rem;
+  width: 90%;
+  margin-top: 3rem;
+}
+
+.header .content-info {
+  -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+          order: -1;
+  text-align: center;
+  padding: 0 8rem;
+  margin-top: 20.5rem;
+}
+
+.header .content-info .content-info__date {
+  color: #4f5c65;
+  display: inline-block;
+  font-size: 1.6rem;
+  opacity: 0.5;
+  line-height: 2.4rem;
+  margin-right: 1.2rem;
+}
+
+.header .content-info__title {
+  color: #353e44;
+  font-size: 4rem;
+  line-height: 4.8rem;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+@media (max-width: 991px) {
+  .header .content-info .content-info__title {
+    margin-bottom: 2.4rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .header .content-info .content-info__title {
+    margin-bottom: 1.6rem;
+  }
+}
+
+.header .author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 4.8rem;
+  margin: 0 auto;
+}
+
+.header .author__photo {
+  height: 100%;
+  border-radius: 50%;
+}
+
+.header .author__name {
+  margin-left: 1.2rem;
+  color: #353e44;
+  font-size: 1.6rem;
+  font-weight: 500;
+  position: relative;
+  top: 30%;
+}
+
+.content-info__tag {
+  height: 2.4rem;
+  padding: 0.5rem 0.6rem;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 0.3rem;
+  line-height: 2.4rem;
+  background-color: #28afb0;
+}
+
+.content-info__tag:hover {
+  color: white;
+  text-decoration: none;
 }
 
 * {
