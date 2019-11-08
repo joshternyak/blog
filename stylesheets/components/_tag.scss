@@ -2,7 +2,7 @@
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
 
-&__tag {
+.content-info__tag {
     height: 2.4rem;
     padding: 0.5rem 0.6rem;
     color: white;
@@ -14,7 +14,7 @@
     background-color: #28afb0;
 }
 
-&__tag:hover {
+.content-info__tag:hover {
     color: white;
     text-decoration: none;
 }

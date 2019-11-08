@@ -28,15 +28,6 @@
         padding: 0 8rem;
         margin-top: 20.5rem;
 
-        &__date {
-            color: rgb(79, 92, 101);
-            display: inline-block;
-            font-size: 1.6rem;
-            opacity: 0.5;
-            line-height: 2.4rem;
-            margin-right: 1.2rem;
-        }
-
         &__title {
             color: #353e44;
             font-size: 4rem;
@@ -56,6 +47,15 @@
                 margin-bottom: 1.6rem;
             }
         }
+    }
+
+    .content-info__date {
+        color: rgb(79, 92, 101);
+        display: inline-block;
+        font-size: 1.6rem;
+        opacity: 0.5;
+        line-height: 2.4rem;
+        margin-right: 1.2rem;
     }
 
     .author {
