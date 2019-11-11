@@ -12,12 +12,12 @@
     border-radius: 0.3rem;
     line-height: 2.4rem;
     background-color: #28afb0;
-}
 
-.tag:hover {
-    color: white;
-    text-decoration: none;
-    display: inline;
+    &:hover {
+        color: white;
+        text-decoration: none;
+        display: inline;
+    }
 }
 
 .tag--dark {

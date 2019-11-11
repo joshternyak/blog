@@ -1,0 +1,13 @@
+.list {
+    margin-top: 2.4rem;
+    margin-bottom: 2.4rem;
+    padding-left: 2.4rem;
+
+    &__item {
+        padding-top: 0.6rem;
+        padding-bottom: 0.6rem;
+        color: rgb(79, 92, 101);
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+    }
+}
