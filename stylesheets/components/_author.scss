@@ -4,7 +4,7 @@
     justify-content: center;
     width: fit-content;
     height: 4.8rem;
-    margin: 0 auto;
+    
 
     &__photo {
         height: 100%;
@@ -31,7 +31,7 @@
 }
 
 .author--align-left {
-    margin: 0 1.2rem;
+    margin: 0rem;
 }
 
 @media(min-width: 991px) {
@@ -48,7 +48,11 @@
         margin-top: 0.5rem;
     }
 
-    .author__name {
-        
+    .author {
+        margin: 0 auto;
+    }
+
+    .author--align-left {
+        margin: 0 1.2rem;
     }
 }

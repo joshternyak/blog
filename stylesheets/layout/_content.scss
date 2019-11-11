@@ -202,3 +202,60 @@
         }
     }
 }
+
+.bg-dark {
+    background-color: #041E39;
+}
+
+.content-centered {
+    color: white;
+    padding: 8rem 0;
+
+
+    &__title {
+        font-size: 5.4rem;
+        line-height: 5.6rem;
+        font-weight: 700;
+        letter-spacing: -0.216rem;
+        margin-bottom: 2.4rem;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    @media(max-width: 767px) {
+        &__title {
+            margin-bottom: 1.6rem;
+            font-size: 4rem;
+            line-height: 4.8rem;
+            letter-spacing: -0.16rem;
+        }
+    }
+
+    &__subtitle {
+        font-size: 2rem;
+        line-height: 3rem;
+        text-align: center;
+    }
+
+    @media(max-width: 767px) {
+        &__subtitle {
+            font-size: 1.6rem;
+            line-height: 2.4rem;
+        }
+    }
+
+    .posts-grid {
+        max-width: 72.8rem;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-top: 8rem;
+    }
+
+    @media(max-width: 72.8rem) {
+        .posts-grid {
+            width: 93vw;
+        }
+    }
+}
