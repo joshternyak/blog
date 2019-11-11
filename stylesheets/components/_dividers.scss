@@ -44,3 +44,15 @@
         opacity: 0;
     }
 }
+
+.divider-rounded-2 {
+    height: 7rem;
+    width: 100vw;
+    margin-top: 0;
+
+    img {
+        width: 100vw;
+        height: 7rem;
+        z-index: 500;
+    }
+}

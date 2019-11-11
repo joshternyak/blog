@@ -73,33 +73,6 @@
         line-height: 2.4rem;
         margin-right: 1.2rem;
     }
-
-    .author {
-        display: flex;
-        align-content: center;
-        justify-content: center;
-        width: fit-content;
-        height: 4.8rem;
-        margin: 0 auto;
-
-        &__photo {
-            height: 100%;
-            border-radius: 50%;
-        }
-
-        &__name {
-            margin-left: 1.2rem;
-            color: #353e44;
-            font-size: 1.6rem;
-            font-weight: 500;
-            position: relative;
-            top: 30%;
-        }
-
-        &__name:hover {
-            text-decoration: none;
-        }
-    }
 }
 
 @media(min-width: 991px) {
@@ -127,12 +100,6 @@
             max-width: 46.1rem;
             max-height: 31.6rem;
             border-radius: 1rem;
-        }
-
-        .author {
-            align-content: start;
-            justify-content: start;
-            margin: 0;
         }
     }
 }

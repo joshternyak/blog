@@ -4,6 +4,7 @@
     background-color: white;
     position: absolute;
     top: 54rem;
+    padding-bottom: 5rem;
     left: 0;
 
     @media(max-width: 1200px) {
@@ -141,5 +142,63 @@
             line-height: 2.4rem;
         }
     }
+}
 
+.cards-wrapper {
+    width: 100vw;
+    background-color: #F7FAFC;
+    min-height: 50rem;
+    position: absolute;
+    top: 236rem;
+    left: 0;
+    text-align: center;
+
+    .cards-wrapper__title {
+        color: rgb(53, 62, 68);
+        font-size: 4rem;
+        letter-spacing: -0.12rem;
+        line-height: 4.8rem;
+        font-weight: 700;
+        margin-top: 7rem;
+        margin-bottom: 7.5rem;
+    }
+
+    @media(max-width: 1200px) {
+        & {
+            top: 232rem;
+        }
+    }
+
+    @media(max-width: 991px) {
+        & {
+            top: 280rem;
+        }
+    }
+
+    @media(max-width: 870px) {
+        & {
+            top: 275rem;
+        }
+    }
+
+    @media(max-width: 775px) {
+        & {
+            top: 270rem;
+        }
+    }
+    
+    .cards-grid {
+        display: flex;
+        align-content: space-around;
+        justify-content: space-around;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        width: 120rem;
+    }
+
+    @media(max-width: 1270px) {
+        .cards-grid {
+            width: 94vw;
+        }
+    }
 }
