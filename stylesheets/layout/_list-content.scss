@@ -1,5 +1,6 @@
 .list-content {
     color: white;
+    background-color: #041E39;
     padding: 8rem 0;
 
     &__title {
@@ -27,6 +28,11 @@
         @media(max-width: 767px) {
             font-size: 1.6rem;
             line-height: 2.4rem;
+        }
+
+        @media(max-width: 485px) {
+            max-width: 85vw;
+            margin: 0 auto;
         }
     }
 }

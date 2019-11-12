@@ -11,6 +11,18 @@
   border-radius: 1rem;
   text-align: left;
 
+  @media(max-width: 500px) {
+      max-width: 40rem;
+  }
+
+  @media(max-width: 450px) {
+      max-width: 35rem;
+  }
+
+  @media(max-width: 425px) {
+      transform: scale(0.9);
+  }
+
   &:hover {
     transform: scale(1.02);
   }
@@ -65,7 +77,7 @@
 
 
 .cards-wrapper {
-  width: 100vw;
+  min-width: 100vw;
   background-color: #F7FAFC;
   min-height: 50rem;
   position: absolute;
