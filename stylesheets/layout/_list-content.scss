@@ -29,16 +29,12 @@
             line-height: 2.4rem;
         }
     }
-
 }
 
 .posts-grid {
     max-width: 72.8rem;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
-    margin-top: 8rem;
+    margin: 8rem auto 0;
 
     @media(max-width: 72.8rem) {
         width: 93vw;

@@ -26,11 +26,12 @@
 // 5. Components
 @import
   'components/tag',
-  'components/dividers',
-  'components/cards',
+  'components/divider',
+  'components/card',
   'components/btn',
   'components/list',
-  'components/author';
+  'components/author',
+  'components/post';
 
 // 6. Page-specific styles
 @import

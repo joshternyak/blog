@@ -1,17 +1,18 @@
 .c-body__btn {
-    color: #0087ee;
-    font-weight: 500;
-    text-decoration: none;
-    font-size: 1.6rem;
-    line-height: 2.4rem;
-}
+  color: #0087ee;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
 
-.c-body__btn--large {
+  &--large {
     font-size: 2rem;
     line-height: 3rem;
 
     @media(max-width: 767px) {
-        font-size: 1.6rem;
-        line-height: 2.4rem;
+      font-size: 1.6rem;
+      line-height: 2.4rem;
     }
+  }
 }
+
