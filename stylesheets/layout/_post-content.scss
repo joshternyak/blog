@@ -1,0 +1,33 @@
+.header, .cards-wrapper, .article {
+    @media(max-width: 440px) {
+        min-width: 117vw !important;
+    }
+
+}
+
+.header {
+    @media(max-width: 400px) {
+        min-width: 142vw !important;
+    }
+}
+
+.article {
+    @media(max-width: 410px) {
+        min-width: 130vw !important;
+    }
+
+    @media(max-width: 410px) {
+        .article-content {
+            min-width: 90vw;
+            margin-left: 10vw;
+            margin-right: 0vw;
+        }  
+    }
+
+}
+
+.divider-rounded-2 {
+    @media(max-width: 410px) {
+        display: none;
+    }
+}
