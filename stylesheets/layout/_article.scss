@@ -1,4 +1,43 @@
-.article-wrapper {
+.article {
+  width: 100vw;
+  min-height: 100rem;
+  background-color: white;
+  position: absolute;
+  top: 54rem;
+  padding-bottom: 5rem;
+  left: 0;
+
+  @media(max-width: 1200px) {
+    top: 50rem;
+  }
+
+  @media(max-width: 991px) {
+    margin-top: 48rem;
+  }
+
+  @media(max-width: 870px) {
+    margin-top: 43rem;
+  }
+
+  @media(max-width: 775px) {
+    margin-top: 38rem;
+  }
+
+  @media(max-width: 675px) {
+    margin-top: 31rem;
+  }
+
+  @media(max-width: 575px) {
+    margin-top: 25rem;
+
+  }
+
+  @media(max-width: 500px) {
+    margin-top: 22rem;
+  }
+}
+
+.article-content {
   width: 90%;
   max-width: 67.2rem;
   margin: 3rem auto 0;
