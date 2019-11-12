@@ -12,19 +12,19 @@
   text-align: left;
 
   @media(max-width: 500px) {
-      max-width: 40rem;
+    max-width: 40rem;
   }
 
   @media(max-width: 450px) {
-      max-width: 35rem;
+    max-width: 38rem;
   }
 
   @media(max-width: 425px) {
-      transform: scale(0.9);
+    transform: scale(0.95);
   }
 
   &:hover {
-    transform: scale(1.02);
+    transform: scale(1);
   }
 
   &__img {
@@ -96,27 +96,23 @@
   }
 
   @media(max-width: 1200px) {
-    & {
-      top: 232rem;
-    }
+    top: 232rem;
   }
 
   @media(max-width: 991px) {
-    & {
-      top: 280rem;
-    }
+    top: 280rem;
   }
 
   @media(max-width: 870px) {
-    & {
-      top: 275rem;
-    }
+    top: 275rem;
   }
 
   @media(max-width: 775px) {
-    & {
-      top: 270rem;
-    }
+    top: 270rem;
+  }
+
+  @media(max-width: 490px) {
+    margin-top: 10rem;
   }
 }
 

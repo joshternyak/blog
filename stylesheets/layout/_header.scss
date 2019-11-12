@@ -8,6 +8,10 @@
   width: 90%;
   margin-top: 3rem;
   z-index: 5;
+
+  @media(max-width: 485px) {
+    transform: scale(0.9);
+  }
 }
 
 .header-content-info {
@@ -19,6 +23,10 @@
 
   @media(min-width: 768px) {
     padding: 0;
+  }
+
+  @media(max-width: 485px) {
+    transform: scale(0.9);
   }
 
   &__date {
@@ -38,7 +46,6 @@
     letter-spacing: -0.04em;
 
     @media(min-width: 768px) {
-
       font-size: 5.4rem;
       line-height: 5.6rem;
       margin-top: 2rem;
@@ -47,7 +54,6 @@
 
     @media(max-width: 991px) {
       margin-bottom: 2.4rem;
-
     }
 
     @media(max-width: 767px) {
@@ -69,6 +75,14 @@
   padding-bottom: 3rem;
   top: 0;
   left: 0;
+
+  @media(max-width: 490px) {
+    min-width: 100vw;
+  }
+
+  @media(max-width: 450px) {
+    min-width: 105%;
+  }
 }
 
 @media(min-width: 991px) {

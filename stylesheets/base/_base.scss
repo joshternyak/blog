@@ -9,6 +9,10 @@ html {
   box-sizing: border-box;
   font-size: 10px;
   overflow-x: hidden;
+
+  @media(max-width: 460px) {
+    min-width: 100vw;
+  }
 }
 
 /**

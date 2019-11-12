@@ -29,11 +29,15 @@
 
   @media(max-width: 575px) {
     margin-top: 25rem;
-
   }
 
   @media(max-width: 500px) {
     margin-top: 22rem;
+  }
+
+  @media(max-width: 460px) {
+    min-width: 100vw;
+    width: 100vw;
   }
 }
 
